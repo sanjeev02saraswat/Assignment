@@ -1,0 +1,83 @@
+<form [formGroup]="editFormGroup">
+
+    <div class="col-md-3">
+        <label class="selectBoxLabel">DATE OF BIRTH</label>
+        <input class="form-control"
+               #datepickerYMD="bsDatepicker"
+               bsDatepicker
+               formControlName="day1"
+               [maxDate]="maxDate"
+               id="day1"
+               [bsConfig]="{ dateInputFormat: 'DD MM YYYY' }">
+      </div>
+      <div class="row"></div>
+      <div class="col-md-3">
+        <label class="selectBoxLabel">DATE OF BIRTH</label>
+        <input class="form-control"
+               #datepickerYMD="bsDatepicker"
+               bsDatepicker
+               formControlName="day2"
+               [maxDate]="maxDate"
+               id="day2"
+               [bsConfig]="{ dateInputFormat: 'DD MM YYYY' }">
+      </div>
+      <div class="row"></div>
+      <div class="col-md-3">
+        <label class="selectBoxLabel">DATE OF BIRTH</label>
+        <input class="form-control"
+               #datepickerYMD="bsDatepicker"
+               bsDatepicker
+               formControlName="day3"
+               [maxDate]="maxDate"
+               id="day3"
+               [bsConfig]="{ dateInputFormat: 'DD MM YYYY' }">
+      </div>
+      <div class="row"></div>
+      <div class="col-md-3">
+        <label class="selectBoxLabel">DATE OF BIRTH</label>
+        <input class="form-control"
+               #datepickerYMD="bsDatepicker"
+               bsDatepicker
+               formControlName="day4"
+               [maxDate]="maxDate"
+               id="day4"
+               [bsConfig]="{ dateInputFormat: 'DD MM YYYY' }">
+      </div>
+      <div class="row"></div>
+      <div class="col-md-3">
+        <label class="selectBoxLabel">DATE OF BIRTH</label>
+        <input class="form-control"
+               #datepickerYMD="bsDatepicker"
+               bsDatepicker
+               formControlName="day5"
+               [maxDate]="maxDate"
+               id="day5"
+               [bsConfig]="{ dateInputFormat: 'DD MM YYYY' }">
+      </div>
+      <div class="row"></div>
+      <div class="col-md-3">
+        <label class="selectBoxLabel">DATE OF BIRTH</label>
+        <input class="form-control"
+               #datepickerYMD="bsDatepicker"
+               bsDatepicker
+               formControlName="day6"
+               [maxDate]="maxDate"
+               id="day6"
+               [bsConfig]="{ dateInputFormat: 'DD MM YYYY' }">
+      </div>
+      <div class="row"></div>
+      <div class="col-md-3">
+        <label class="selectBoxLabel">DATE OF BIRTH</label>
+        <input class="form-control"
+               #datepickerYMD="bsDatepicker"
+               bsDatepicker
+               formControlName="day7"
+               [maxDate]="maxDate"
+               id="day7"
+               [bsConfig]="{ dateInputFormat: 'DD MM YYYY' }">
+      </div>
+      <div class="row"></div>
+
+      <button type="button" (click)="edit()" >Edit</button>
+      <button type="button" (click)="cancel()">Cancel</button>
+    </form>
